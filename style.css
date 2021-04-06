@@ -1,0 +1,158 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+} 
+#header{
+  background-color:#eee ;
+  position: fixed;
+  width: 100%;
+}
+#header-img {
+  height : 30%;
+  width : 30%;
+  margin-top: 5px;
+}
+#nav-bar > li{
+  padding-left:100px;
+  padding-right:60px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Lato', sans-serif ;
+}
+.freecode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 40px;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+#email{
+    width: 300px;
+    border: 2px solid black;
+}
+#submit{
+    color: black;
+    font-size: 20px;
+    background-color: #f1c40f;
+    margin: 4px;
+}
+#submit:hover{
+    background-color: orange;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .box {
+    display: flex;
+  }
+#features {
+    margin-top: 0px;
+  }
+  
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  #features .blah {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+  #how-it-work{
+      margin-top: 70px;
+      justify-content: center;
+      display: flex;
+      
+  }
+  #video{
+      width: 600px;
+  }
+ 
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px;
+  }
+  .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  .third > h2 {
+    margin-top: 15px;
+  }
+  .level{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+  }
+ button{
+    color: black;
+    font-size: 20px;
+    background-color: #f1c40f;
+    width: 80px;
+}
+
+button:hover{
+    background-color: orange;
+    color: red;  
+}
+.third > ol {
+    margin: 15px 0;
+  }
+  
+ .third > ol > li {
+    padding: 5px 0;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .logo {
+    width: 60vw;
+  }
+  
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  .logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
